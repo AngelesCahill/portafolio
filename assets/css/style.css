@@ -9,6 +9,7 @@ body {
 
 nav.navbar {
     background-color: #F56D91 !important;
+    font-size: 1rem;
 }
 
 a.navbar-brand {
@@ -18,7 +19,7 @@ a.navbar-brand {
 }
 
 header#hero-section {
-    background-image: url(../img/yo.jpg);
+    background-image: url(../img/mi-foto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,7 +38,7 @@ hr {
 }
 header#hero-section div {
     position: absolute;
-    bottom: 130px;
+    bottom: 90px;
     left: 0;
     right: 0;
     margin: auto;
@@ -56,10 +57,63 @@ div.sobre-mi-texto {
     font-size: 0.75rem !important;
 }
 
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: justify;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 3rem;
+}
+
 i {
     color: #F56D91;
     font-size: 8rem;
     border-radius: 50px;
 }
 
+.trabajos {
+    background-color: #F56D91;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    color: #ffff;
+}
 
+img.img-trabajos {
+    height: 15rem;
+}
+
+h2.contacto {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+hr.contacto {
+    color: black;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.ver-mas {
+    background-color: #F56D91 !important;
+    width: 8rem;
+}
+
+footer {
+    background-color: #F56D91;
+}
+
+footer h1 {
+    font-family: open sans;
+    font-weight: 800;
+    color: #ffff;
+}
+
+i.fab {
+    font-size: 4rem;
+    color: #ffff;
+    margin-right: 1rem;
+}
